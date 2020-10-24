@@ -1,2 +1,3 @@
 ConnectionStrings.Postgres: Server=localhost;Port=5432;Database=db_invoice;User Id=postgres;Password=Aforo255#2019;
+ConnectionStrings.Mysql: server=localhost;port=3306;database=db_operation;user=root;password=Aforo255#2019
 environment: development
