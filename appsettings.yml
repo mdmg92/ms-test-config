@@ -13,5 +13,12 @@ Rabbitmq:
   Password: guest
   VirtualHost: "/"
   Port: '5672'
+  
+BearerToken:
+  Enabled: true,
+  Issuer: "http://mdmg92",
+  Audience: "web",
+  Key: "CLave#12548MIentrasMas45566Mejor____%%%dddd",
+  Expiration: "30"
 
 environment: production
