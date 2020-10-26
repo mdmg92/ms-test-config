@@ -14,6 +14,15 @@ Rabbitmq:
   VirtualHost: "/"
   Port: '5672'
   
+Consul:
+  Enabled: true
+  Url: http://localhost:8500
+  PingEnabled: true
+  PingEndpoint: ping
+  PingInterval: 5
+  RemoveAfterInterval: 10
+  RequestRetries: 3
+  
 BearerToken:
   Enabled: true
   Issuer: http://mdmg92
