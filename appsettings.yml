@@ -19,9 +19,9 @@ Consul:
   Url: http://localhost:8500
   PingEnabled: true
   PingEndpoint: ping
-  PingInterval: 5
-  RemoveAfterInterval: 10
-  RequestRetries: 3
+  PingInterval: '5'
+  RemoveAfterInterval: '10'
+  RequestRetries: '3'
   
 BearerToken:
   Enabled: true
