@@ -1,2 +1,34 @@
-ConnectionStrings.Postgres: Server=postgres-ms;Port=5432;Database=db_invoice;User Id=postgres;Password=Aforo255#2019;
+ConnectionStrings:
+  Postgres: Server=postgres-db;Port=5432;Database=db_invoice;User Id=postgres;Password=Aforo255#2019;
+  Mysql: server=mysql-db;port=3306;database=db_operation;user=root;password=Aforo255#2019
+  SqlServer: Server=sqlserver-db,1433;Database=db_security;User Id=sa;Password=Aforo255#2019;
+
+MongoDbSettings:
+  ConnectionString: mongodb://mongo-db:27017
+  Database: db_transaction
+
+Rabbitmq:
+  Hostname: rabbitmq-service-test
+  Username: guest
+  Password: guest
+  VirtualHost: "/"
+  Port: '5672'
+  
+Consul:
+  Enabled: true
+  Url: http://consul-service-test:8500
+  PingEnabled: true
+  PingEndpoint: ping
+  PingInterval: 5
+  RemoveAfterInterval: 10
+  RequestRetries: 3
+  
+BearerToken:
+  Enabled: true
+  Issuer: http://mdmg92
+  Audience: web
+  Key: CLave#12548MIentrasMas45566Mejor____%%%dddd
+  Expiration: '30'
+
+
 environment: docker
