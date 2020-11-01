@@ -22,6 +22,11 @@ Consul:
   PingInterval: 5
   RemoveAfterInterval: 10
   RequestRetries: 3
+
+Fabio:
+  Enabled: true
+  Url: http://fabio-service:9999
+  RequestRetries: 3
   
 BearerToken:
   Enabled: true
