@@ -25,7 +25,7 @@ Consul:
 
 Fabio:
   Enabled: true
-  Url: http://fabio-service:9999
+  Url: http://balance-service-test:9999
   RequestRetries: 3
   
 BearerToken:
