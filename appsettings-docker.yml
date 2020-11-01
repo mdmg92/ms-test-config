@@ -8,7 +8,7 @@ MongoDbSettings:
   Database: db_transaction
 
 Rabbitmq:
-  Hostname: rabbitmq-service-test
+  Hostname: bus-service-test
   Username: guest
   Password: guest
   VirtualHost: "/"
